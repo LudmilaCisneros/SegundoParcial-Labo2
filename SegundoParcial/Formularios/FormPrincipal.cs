@@ -100,13 +100,14 @@ namespace Formularios
         {
             int i = index;
 
-            if(Showroom.filaClientes.Count > 0)
+            if(Showroom.filaClientes.Count > 0 && Showroom.filaClientes.Count > i)
             {
                 Showroom.ventasRealizadas.Add(Showroom.filaClientes[i]);
                 Showroom.filaClientes.RemoveAt(i);
                 listBxRealizados.Items.Add(Showroom.ventasRealizadas[i].MostrarVenta());
+                index++;
             }
-            index++;
+
         }
 
         private void btnNuevoPedido_Click(object sender, EventArgs e)
