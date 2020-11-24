@@ -14,7 +14,9 @@ namespace Entidades
         private int intervaloMax;
 
         public delegate void encargadoTiempo();
-        public event encargadoTiempo EventoTiempo;
+        public event encargadoTiempo EventoTiempo; //el evento es del tipo del delegado
+
+        #region Constructores
 
         public Hilo(int intervaloMin,int intervaloMax)
         {
@@ -26,6 +28,12 @@ namespace Entidades
             this.intervaloMin = intervalo;
             this.intervaloMax = intervalo;
         }
+
+        #endregion
+
+        /// <summary>
+        /// Propiedad Activo: si se le pasa true activa el hilo y lo instancia, false para abortarlo
+        /// </summary>
         public bool Activo
         {
             get
@@ -38,7 +46,7 @@ namespace Entidades
             }
             set
             {
-                if (value)
+                if (value)//si se le pasa true lo activa
                 {
                     if (this.hilo == null || !this.hilo.IsAlive)
                     {
@@ -55,18 +63,28 @@ namespace Entidades
                 }
             }
         }
+
+        /// <summary>
+        /// Propiedad setea el valor intervaloMin
+        /// </summary>
         public int IntervaloMin
         {
             get { return this.intervaloMin; }
             set { this.intervaloMin = value; }
         }
 
+        /// <summary>
+        /// Propiedad setea el valor intervaloMax
+        /// </summary>
         public int IntervaloMax
         {
             get { return this.intervaloMax; }
             set { this.intervaloMax = value; }
         }
 
+        /// <summary>
+        /// Metodo que ejecuta el evento EventoTiempo,dentro del evento estan los metodos "suscriptos"
+        /// </summary>
         private void Corriendo()
         {
             while (true)

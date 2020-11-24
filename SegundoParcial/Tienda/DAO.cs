@@ -35,6 +35,12 @@ namespace Entidades
         //    string aux = datos.Substring(0,15);
         //    return aux + datos.Substring(17);
         //}
+
+
+        /// <summary>
+        /// Lanza una query a la base de datos, y guarda la tabla de stock en la lista de stock
+        /// </summary>
+        /// <returns></returns>
         public static List<Producto> ObtenerStockDeBD()
         {
             try
@@ -58,7 +64,6 @@ namespace Entidades
                             int.Parse(dato["Código"].ToString()),
                             (Producto.ETipo)Enum.Parse(typeof(Producto.ETipo), dato["Tipo"].ToString()),
                             int.Parse(dato["Stock"].ToString()),
-                            /*(Accesorios.ESubTipoAcc)Enum.Parse(typeof(Accesorios.ESubTipoAcc), dato["Subtipo"].ToString())));*/
                             dato["Subtipo"].ToString()));
                             break;
 
@@ -71,7 +76,6 @@ namespace Entidades
                             (Producto.ETipo)Enum.Parse(typeof(Producto.ETipo), dato["Tipo"].ToString()),
                             int.Parse(dato["Stock"].ToString()),
                             dato["Subtipo"].ToString()));
-                            //(Maquillaje.ESubTipoMaq) Enum.Parse (typeof(Maquillaje.ESubTipoMaq), dato["Subtipo"].ToString())));
                             break;
                     }
                 }

@@ -9,16 +9,6 @@ namespace Entidades
     [Serializable]
     public sealed class Maquillaje : Producto
     {
-        #region Enumerados
-        //public enum ESubTipoMaq
-        //{
-        //    rostro,
-        //    labios,
-        //    ojos,
-        //    otros
-        //}
-
-        #endregion
 
         #region Atributos
 

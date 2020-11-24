@@ -14,9 +14,7 @@ namespace Archivos
     public class Xml<T> : IArchivo<T>
     {
         /// <summary>
-        /// Implementación del método de la interface IArchivos
-        /// que serializa datos en formato XML.
-        /// Caso contrario, lanzará la excepción: ArchivosException().
+        /// Serializa datos en formato XML.
         /// </summary>
         /// <param name="archivo"></param>
         /// <param name="datos"></param>
@@ -47,9 +45,7 @@ namespace Archivos
 
 
         /// <summary>
-        /// Implementación del método de la interface IArchivos
-        /// que deserializa datos en formato XML.
-        /// Caso contrario, lanzará la excepción: ArchivosException().
+        /// Deserializa datos en formato XML.
         /// </summary>
         /// <param name="archivo"></param>
         /// <param name="datos"></param>
