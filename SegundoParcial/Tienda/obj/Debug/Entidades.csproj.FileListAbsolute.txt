@@ -1,0 +1,11 @@
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Tienda.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Tienda.pdb
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Excepciones.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Excepciones.pdb
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\obj\Debug\Tienda.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\obj\Debug\Tienda.pdb
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Archivos.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Tienda\bin\Debug\Archivos.pdb

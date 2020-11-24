@@ -1,0 +1,6 @@
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lu\Desktop\SEGUNDO PARCIAL\SegundoParcial\Excepciones\obj\Debug\Excepciones.pdb
